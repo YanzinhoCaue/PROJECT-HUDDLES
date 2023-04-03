@@ -1,0 +1,107 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+main{
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    display: grid;
+    grid-template-areas: 
+    "logo logo"
+    "information information"
+    "social social";
+    height: 100%;
+    max-width: 1440px;
+
+}
+
+/* LOGO */
+.logo{
+    grid-area: logo;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.logo img{
+    width: 20rem;
+    margin-bottom: 5rem;
+}
+/* INFORMAÇÕES */
+.information{
+    grid-area: information;
+    display: flex;
+}
+.information .illustration{
+    margin-left: 5rem;
+}
+.information .illustration img{
+    width: 100%;
+}
+.text-and-register{
+    display: flex;
+    flex-direction: column;
+}
+.information .copy{
+    padding: 3rem;
+    width: 60rem;
+    flex-wrap: wrap;
+}
+.information .copy .title{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.information .copy .description{
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    flex-wrap: wrap;
+}
+.information .text-and-register .register{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    width: 15rem;
+    margin-left: 3rem;
+    padding: 0.9rem;
+    justify-content: center;
+    border-radius: 5rem;
+    box-shadow: 3px 5px 10px #2b2a2a;
+}
+.information .text-and-register .register:hover{
+    background-color: hsl(300, 69%, 71%);
+}
+.information .text-and-register a:hover{
+    color: #fff;
+
+}
+/* SOCIAL */
+.social{
+    grid-area: social;
+    display: flex;
+    margin: 3rem 10rem;
+    font-size: 2rem;
+    justify-content: flex-end;
+}
+.social i{
+    margin: 10px 10px 0px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    transition: 0.2s;
+}
+.social .facebook i{
+    padding: 1rem 1.4rem ;
+}
+.social .twitter i{
+    padding: 1.0rem;
+}
+.social .instagram i{
+    padding: 1.0rem 1.2rem;
+}
+.social i:hover{
+    border: 2px solid hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}

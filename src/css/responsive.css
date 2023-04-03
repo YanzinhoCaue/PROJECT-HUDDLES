@@ -1,0 +1,40 @@
+@media(max-width: 375px){
+    main{
+        background: url('../images/bg-mobile.svg');
+        display: block;
+        align-items: center;
+        background-color: hsl(257, 40%, 49%);
+        height: 700px;
+    }
+    .logo{
+        margin: 0 0 0 30px;
+    }
+    .logo img{
+        margin: 30px 0;
+    }
+    .information{
+        display: block;
+    }
+    .information .illustration{
+        margin: 0 30px;
+    }
+    .information .text-and-register{
+        display: block;
+        text-align: center;
+    }
+    .information .copy{
+        display: block;
+        width: 375px;
+    }
+    .information .copy .title{
+        font-size: 2.5rem;
+
+    }
+    .information .copy .description{
+        font-size: 1.5rem;
+    }
+    .information .text-and-register .register{
+        text-align: center;
+        margin: auto;
+    }
+}
